@@ -123,3 +123,7 @@ PPT 발표 준비
 
 ## ERD 설계
 ![플리_ERD](/uploads/c8eb47e9b77b5f6e05909f218283b12e/플리_ERD.png)
+
+
+## API 설계서 작성
+![image](/uploads/ead679ebc2c0e9468d1f9abbc3ce1203/image.png)
