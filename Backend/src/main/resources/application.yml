@@ -1,0 +1,19 @@
+server:
+  port: 6090
+
+spring:
+  profiles:
+    include: "oauth"
+  jpa:
+    hibernate:
+      ddl-auto: create
+    database: mysql
+    show-sql: false
+    properties:
+      hibernate:
+        format_sql: true
+        use_sql_comments: true
+  datasource:
+    username: flowerly
+    password: flowerlybe-209
+    url: jdbc:mariadb://k9b209.p.ssafy.io:3306/flowerly?serverTimezone=UTC&useUniCode=yes&characterEncoding=UTF-8
