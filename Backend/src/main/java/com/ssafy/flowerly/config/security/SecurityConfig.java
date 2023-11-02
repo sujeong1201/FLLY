@@ -20,6 +20,8 @@ import org.springframework.web.cors.CorsConfiguration;
 import org.springframework.web.cors.CorsConfigurationSource;
 import org.springframework.web.cors.UrlBasedCorsConfigurationSource;
 
+import java.util.List;
+
 @Slf4j
 @Configuration
 @RequiredArgsConstructor
@@ -47,17 +49,23 @@ public class SecurityConfig {
                 //===========URL 별 권한 옵션 =============
                 .authorizeRequests()
                 .antMatchers("/**").permitAll()
-                .antMatchers(HttpMethod.GET).permitAll()
-                .antMatchers(HttpMethod.POST).permitAll()
-                .antMatchers(HttpMethod.PATCH).permitAll()
-                .antMatchers(HttpMethod.DELETE).permitAll()
-                .antMatchers(HttpMethod.PUT).permitAll();
+                .antMatchers("/api/member/dummy-token").permitAll()
+                .antMatchers("/api/s3/**").permitAll()
+                .antMatchers("/ws/**").permitAll()
+                .antMatchers("/stomp-chat/**").permitAll()
+                .antMatchers("/api/member/**").authenticated();
+//                .antMatchers(HttpMethod.GET).authenticated()
+////                .antMatchers(HttpMethod.GET).permitAll()
+//                .antMatchers(HttpMethod.POST).permitAll()
+//                .antMatchers(HttpMethod.PATCH).permitAll()
+//                .antMatchers(HttpMethod.DELETE).permitAll()
+//                .antMatchers(HttpMethod.PUT).permitAll();
                 //permitAll() : 인증이 처리 되었다고 생각했기 때문
 
         //Oauth 설정
         http.oauth2Login()
                 .loginPage("https://flower-ly.co.kr/")
-                .loginPage("http://localhost:6090")
+                //.loginPage("http://localhost:6090")
                 .successHandler(oAuth2LoginSuccessHandler)  //성공할 경우 수행할 핸들러
                 .failureHandler(oAuth2LoginFailureHandler)  //실패할 경우 수행할 핸들러
                 .userInfoEndpoint()                         //Oauth2 정보를 가져오는데 사용할 서비스
@@ -74,7 +82,8 @@ public class SecurityConfig {
 
         corsConfiguration.addAllowedOriginPattern("*"); //모든 도메인에 대해 Request 허용
         corsConfiguration.addAllowedHeader("*");        //모든 헤더 허용
-        corsConfiguration.addAllowedHeader("*");        //모든 메소드 허용
+        corsConfiguration.setAllowedOrigins(List.of("http://localhost:3000/", "http://localhost:6090/", "http://localhost:5173/", "https://flower-ly.co.kr/"));
+        corsConfiguration.setAllowedMethods(List.of("GET", "POST", "PUT", "DELETE", "PATCH", "OPTIONS"));        //모든 메소드 허용
         corsConfiguration.setAllowCredentials(true);    //모든 요청, 응답에서 인증정보 처리
 
         //인스턴스를 생성해 모든 경로에 대해 corsConfiguration을 적용하도록 한다.

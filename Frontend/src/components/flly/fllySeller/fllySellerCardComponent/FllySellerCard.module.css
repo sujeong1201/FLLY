@@ -6,7 +6,6 @@
   background-color: #ffffff;
   overflow: hidden;
   box-shadow: 0px 0px 4px rgb(0, 0, 0, 0.25);
-  /* font-family: "NanumSquareNeoOTF-Rg"; */
 }
 
 .cardMain {
@@ -14,21 +13,25 @@
   display: flex;
 }
 
-.cardMainImg {
+.cardMainImgBox {
+  height: 100%;
   width: 190px;
   position: relative;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
+}
+
+.cardMainImgBox > img {
+  object-position: center;
+  object-fit: cover;
 }
 
 .cardMainImgInfo {
   position: absolute;
   height: 35px;
+  text-align: center;
   line-height: 35px;
   width: 100%;
-  font-size: 18px;
-  font-weight: bold;
+  font-size: 20px;
+  font-family: "NanumSquareNeoOTF-Bd";
   background-color: rgb(193, 224, 224, 0.8);
   bottom: 0px;
 }
@@ -55,12 +58,13 @@
 
 .cardMainDetail > div:nth-child(4) > button {
   background-color: var(--mint);
+  height: 40px;
   margin: 0px auto;
   width: 100px;
   border-radius: 5px;
   border: 0px;
-  font-size: 18px;
-  font-weight: bold;
+  font-size: 16px;
+  font-family: "NanumSquareNeoOTF-Bd";
   color: var(--dark);
 }
 
@@ -71,16 +75,20 @@
 .cardMainDetail > div > span {
   width: calc(100% - 35px);
   margin-left: 3px;
-  font-size: 15px;
+  font-size: 16px;
   line-height: 25px;
   text-align: start;
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
+  font-family: "NanumSquareNeoOTF-Rg";
 }
 
 .cardfooter {
-  line-height: 30px;
+  line-height: 32px;
   height: 30px;
+  text-align: center;
   background-color: #f7f8f9;
+  font-size: 16px;
+  font-family: "NanumSquareNeoOTF-Rg";
 }
