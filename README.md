@@ -1,6 +1,6 @@
 # 💐 당신을 위한 하나뿐인 꽃다발, 플리
 
-![readmeBg2](/uploads/55bb2cdf283b2460ed13d7c4fbe360a7/readmeBg2.png)
+![readmeBg2](https://github.com/sujeong1201/FLLY/assets/37768793/1eb894db-29c4-49b5-bfd0-b4a5030c1db2)
 
 ## 목차
 
@@ -52,17 +52,17 @@
 
 ### 1. ERD
 
-![플리_ERD](/uploads/46fd1c13e4002b5ee485532657084b3b/플리_ERD.png)
+![플리 ERD](https://github.com/sujeong1201/FLLY/assets/37768793/56636f01-035f-4ee4-bb4f-34617b2ee69e)
 
 ### 2. 아키텍처
 
-![아키텍처](/uploads/c207f36988ae92db9f0c1af76d912e4c/아키텍처.PNG)
+![아키텍처](https://github.com/sujeong1201/FLLY/assets/37768793/d0adcee1-0973-4429-b7b2-beb590abff7d)
 
 ### 3. 목업
 
-![플리_피그마-1](/uploads/57e7bba987e650b42fb63e549095bb6c/플리_피그마-1.PNG)
+![플리 피그마-1](https://github.com/sujeong1201/FLLY/assets/37768793/c46cabc5-c108-4ce7-b727-982457adc851)
 
-![플리_피그마-2](/uploads/7e909806cf42e7018a72dab73175771f/플리_피그마-2.PNG)
+![플리 피그마-2](https://github.com/sujeong1201/FLLY/assets/37768793/c4960f82-b99e-4fb1-9420-6073c106774f)
 
 ## 🌼주요 기능
 
@@ -211,33 +211,61 @@
 
 ## 🌼팀원 소개
 
-<img src="/uploads/4bf9ab2eafbd513bcc0bd60543faab84/팀원소개.PNG" width="1000" alt="팀원소개"></img><br/>
-
-### 담당 역할
-
 <table>
-<tr>
-<td><b>이현욱</b></td>
-<td>Security, 구매자 API, FCM, S3</td>
-</tr>
-<tr>
-<td><b>권기연</b></td>
-<td>회원가입, 마이페이지</td>
-</tr>
-<tr>
-<td><b>김동민</b></td>
-<td>메인 화면, 구매자 화면</td>
-</tr>
-<tr>
-<td><b>김하영</b></td>
-<td>플리 생성, 생성형 AI</td>
-</tr>
-<tr>
-<td><b>정수정</b></td>
-<td>채팅, 카카오페이</td>
-</tr>
-<tr>
-<td><b>정현모</b></td>
-<td>마이페이지, 판매자</td>
-</tr>
+ <tr>
+  <td>
+  <a href="https://github.com/Devwooki"> 
+   <img src="https://avatars.githubusercontent.com/u/70623636?v=4" />
+  </a>
+  </td>
+    <td>
+  <a href="https://github.com/giyeonkwon013"> 
+   <img src="https://avatars.githubusercontent.com/u/122511574?v=4" />
+  </a>
+  </td>
+    <td>
+  <a href="https://github.com/DongMinE"> 
+   <img src="https://avatars.githubusercontent.com/u/91265819?v=4" />
+  </a>
+  </td>
+    <td>
+  <a href="https://github.com/hayeongK"> 
+   <img src="https://avatars.githubusercontent.com/u/83320865?v=4" />
+  </a>
+  </td>
+    <td>
+  <a href="https://github.com/sujeong1201"> 
+   <img src="https://avatars.githubusercontent.com/u/37768793?v=4" />
+  </a>
+  </td>
+    <td>
+  <a href="https://github.com/wjdgusaho"> 
+   <img src="https://avatars.githubusercontent.com/u/56811267?v=4" />
+  </a>
+  </td>
+ </tr>
+ <tr>
+  <td><b>이현욱 (팀장)</b></td>
+  <td><b>권기연</b></td>
+  <td><b>김동민</b></td>
+  <td><b>김하영</b></td>
+  <td><b>정수정</b></td>
+  <td><b>정현모</b></td>
+ </tr>
+ <tr>
+  <td>Infra, BackEnd</td>
+  <td>FrontEnd, BackEnd</td>
+  <td>FrontEnd</td>
+  <td>FrontEnd, BackEnd</td>
+  <td>FrontEnd, BackEnd</td>
+  <td>Infra, FrontEnd, BackEnd</td>
+ </tr>
+ <tr>
+  <td>Security, 구매자 API, FCM, S3</td>
+  <td>회원가입, 마이페이지</td>
+  <td>메인 화면, 구매자 화면</td>
+  <td>플리 생성, 생성형 AI</td>
+  <td>채팅, 카카오페이</td>
+  <td>판매자, 마이페이지</td>
+ </tr>
 </table>
