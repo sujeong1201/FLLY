@@ -99,9 +99,9 @@
 카카오 소셜 로그인을 제공합니다. 판매자의 경우 사업자 등록 번호 확인이 필요합니다.
 
 <p align="center">
-<img src="/uploads/cc4afc6c4d19cb5df4c83cab52d54fce/로그인_화면.PNG" width="300" alt="로그인"></img>
-<img src="/uploads/8a5a604627a27dcd6c15a539e27b924c/회원가입-판매자.PNG" width="300" alt="회원가입_판매자"></img>
-<img src="/uploads/eedea1a4430c445cecf10cf423313ee1/회원가입_판매자2.png" width="300" alt="회원가입_판매자2"></img>
+<img src="https://github.com/sujeong1201/FLLY/assets/37768793/55aafa94-1c35-4b8f-b906-ba250fa7889b" width="300" alt="로그인"></img>
+<img src="https://github.com/sujeong1201/FLLY/assets/37768793/574d7758-0f04-4c75-8ee1-1002a6544b4f" width="300" alt="회원가입"></img>
+<img src="https://github.com/sujeong1201/FLLY/assets/37768793/5b3c70a3-1c87-4c15-80a6-389df6ec1b88" width="300" alt="회원가입_판매자"></img>
 </p>
 
 ### 2. 꽃다발 생성 및 의뢰
@@ -109,24 +109,16 @@
 ① 구매 목적, 대상, 색상 선택, ② 꽃 선택, ③ 꽃다발 시안 선택, ④ 의뢰서 작성, 4개의 단계를 거쳐 꽃다발 제작을 의뢰합니다.
 
 <p align="center">
-<img src="/uploads/26cf5c340902a3b4b60b9b53af02dd1a/플리_생성-1-목적.PNG" width="300" alt="플리생성1"></img>
-<img src="/uploads/266e0e648785219133121e358066acae/플리_생성-2-대상.PNG" width="300" alt="플리생성2"></img>
-<img src="/uploads/dc0bedf7dd90c6ccdd6c04fc8ab33927/플리_생성-3-색상.PNG" width="300" alt="플리생성3"></img>
+<img src="https://github.com/sujeong1201/FLLY/assets/37768793/f8af323e-78f4-41e5-ba82-129889b4ccc1" width="300" alt="플리생성1"></img>
 </p>
 
-<p align="center">
-<img src="/uploads/abae2e86eef412cd06f7f9a2169a4961/플리_생성-4-꽃_목록.PNG" width="300" alt="플리생성4"></img>
-<img src="/uploads/d7420b3d61c36f832a32c14439e83315/플리_생성-5-꽃다발_시안.PNG" width="300" alt="플리생성5"></img>
-<img src="/uploads/44d4a1f0c76e13bb3a9d12189bb4c246/플리_생성-6-의뢰서.PNG" width="300" alt="플리생성6"></img>
-</p>
 
 ### 3. 주변 플리
 
 주변 플리 목록을 배달, 픽업을 나누어 볼 수 있고, 원하는 플리에 참여합니다.
 
 <p align="center">
-<img src="/uploads/24188e1ba8d4da7f003743adcd32f0af/판매자-주변_플리목록-픽업.PNG" width="300" alt="주변플리목록"></img>
-<img src="/uploads/e24f255a9059ff39a37fbab87db6975c/플리_참여하기_화면.PNG" width="300" alt="플리참여하기"></img>
+<img src="https://github.com/sujeong1201/FLLY/assets/37768793/dbe43362-f998-47b4-8c07-dd172b2ff086" width="300" alt="주변플리목록"></img>
 </p>
 
 ### 4. 진행중인 플리 - 구매자
@@ -134,9 +126,7 @@
 진행중인 플리의 정보와 상태를 확인하고, 플리에 참여한 판매자들을 보고 원하는 항목의 채팅하기 버튼을 눌러 채팅방을 생성합니다.
 
 <p align="center">
-<img src="/uploads/3c20bd1aadcb103b817032a3fe7d8112/구매자-진행중인_플리.PNG" width="300" alt="진행중인플리"></img>
-<img src="/uploads/2d8a2a56c9c3d50629e9126cbd2906e5/플리스트-2.PNG" width="300" alt="플리스트"></img>
-<img src="/uploads/881c6cb95fd51cb0225a246ba85232ee/플리스트-한개선택.PNG" width="300" alt="플리스트_가게선택"></img>
+<img src="https://github.com/sujeong1201/FLLY/assets/37768793/9dd9b07b-9f96-41c7-b189-95158bb0966a" width="300" alt="플리스트_가게선택"></img>
 </p>
 
 ### 5. 진행중인 플리 - 판매자
@@ -144,9 +134,7 @@
 진행중인 플리를 참여한 플리, 채택된 플리로 나누어 볼 수 있고, 채택된 플리에서 완료하기 버튼을 통해 진행 상태를 변경합니다.
 
 <p align="center">
-<img src="/uploads/93b6278d0baf7c59ebe14e2b5f93a9e4/판매자-진행중인_플리-채택된_플리.PNG" width="300" alt="채택된플리"></img>
-<img src="/uploads/91998da0818435b2c3dcba8ace26590a/판매자-진행중인_플리-참여한_플리.PNG" width="300" alt="참여한플리"></img>
-<img src="/uploads/8a41704c7ab129d60a45ad75e7f7c3e2/판매자-진행중인_플리-완료하기_모달.PNG" width="300" alt="채택된플리_완료하기"></img>
+<img src="https://github.com/sujeong1201/FLLY/assets/37768793/4afe4aa2-21e4-4bb8-a12a-c3c46495b3e0" width="300" alt="채택된플리_완료하기"></img>
 </p>
 
 ### 6. 채팅
@@ -154,25 +142,19 @@
 실시간 채팅을 할 수 있고, 사진 전송, 플리 정보 확인, 주문서 작성 및 확인, 결제하기 기능을 제공합니다.
 
 <p align="center">
-<img src="/uploads/40109a78d4e6bcf1ab78f09083dbcf40/채팅_목록.PNG" width="300" alt="채팅목록"></img>
-<img src="/uploads/9017d969b0c016822165095aa36b1375/채팅방-3.PNG" width="300" alt="채팅방_메뉴"></img>
-<img src="/uploads/5b0621fbf79b0b8a2e12523c53396977/채팅방-4-카카오페이까지.PNG" width="300" alt="채팅방_메세지들"></img>
+<img src="https://github.com/sujeong1201/FLLY/assets/37768793/2dae3206-4bc6-49d9-884d-641e81633169" width="300" alt="채팅목록"></img>
+<img src="https://github.com/sujeong1201/FLLY/assets/37768793/7f3b27ec-2c51-4701-ad1b-9442fdd9ff55" width="300" alt="채팅방_메뉴"></img>
+<img src="https://github.com/sujeong1201/FLLY/assets/37768793/4bdbfa68-2094-469e-a44d-bba73a27007d" width="300" alt="채팅방_메세지들"></img>
 </p>
 
-<p align="center">
-<img src="/uploads/99d61bf4731ab4fe127f952f56753538/채팅방-6-플리_정보.PNG" width="300" alt="채팅방_플리정보"></img>
-<img src="/uploads/3dfd9b94e1888712c595b30b25861092/채팅방-5-주문서_작성.PNG" width="300" alt="채팅방_주문서작성"></img>
-<img src="/uploads/3671776bf0a077d1f48c4a834907330f/채팅방-2-주문서_확인.PNG" width="300" alt="채팅방_주문서확인"></img>
-</p>
 
 ### 7. 마이페이지 - 구매자
 
 플리 내역, 내가 쓴 리뷰 목록, 내 정보 수정, 알림 여부 설정 기능을 제공합니다.
 
 <p align="center">
-<img src="/uploads/f8c9565defedce0742f2432378422998/마이페이지-구매자.PNG" width="300" alt="마이페이지_구매자"></img>
-<img src="/uploads/9ef08e11f8de4f1cf90ea76e0fc81bb9/마이페이지-플리내역-구매자.PNG" width="300" alt="마이페이지_플리내역"></img>
-<img src="/uploads/0041d23dc66d0710d6a4c22978e95418/마이페이지-리뷰-구매자.PNG" width="300" alt="마이페이지_구매자리뷰"></img>
+<img src="https://github.com/sujeong1201/FLLY/assets/37768793/2298d88c-1b7c-47dc-93eb-839eb05161f9" width="300" alt="마이페이지_구매자"></img>
+<img src="https://github.com/sujeong1201/FLLY/assets/37768793/70bdb98a-f635-4cc3-986b-f1c35ef6bf39" width="300" alt="마이페이지_플리내역"></img>
 </p>
 
 ### 8. 마이페이지 - 판매자
@@ -180,9 +162,9 @@
 대표사진 수정, 배달 가능 지역 변경, 플리 내역, 가게 리뷰 목록, 가게 정보 수정, 알림 여부 설정 기능을 제공합니다.
 
 <p align="center">
-<img src="/uploads/9d0b46b29592b76ef88214237f36ae94/마이페이지-판매자-대표사진수정.PNG" width="300" alt="마이페이지_판매자"></img>
-<img src="/uploads/96f2bc9290b42906f02918d03ab390ed/마이페이지-설정-판매자.PNG" width="300" alt="마이페이지_설정"></img>
-<img src="/uploads/801e7df24e9df1681baa4350563e9ec3/마이페이지-리뷰-판매자.PNG" width="300" alt="마이페이지_판매자리뷰"></img>
+<img src="https://github.com/sujeong1201/FLLY/assets/37768793/45f7d51c-6061-4231-9cfb-fc1a193346a4" width="300" alt="마이페이지_판매자_리뷰"></img>
+<img src="https://github.com/sujeong1201/FLLY/assets/37768793/6bb87d3c-ae30-411a-a78e-ad6052f4f90f" width="300" alt="마이페이지_판매자_정보수정"></img>
+<img src="https://github.com/sujeong1201/FLLY/assets/37768793/388b25d2-ba3a-47f0-b314-b47e5d7f328c" width="300" alt="마이페이지_판매자_대표이미지"></img>
 </p>
 
 ## 🌼사용 기술
