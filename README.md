@@ -172,7 +172,7 @@
 - Frontend
   - React
   - TypeScript
-  - Redux
+  - Recoil
   - React-Query
   - Next.js
   - DALLE API
